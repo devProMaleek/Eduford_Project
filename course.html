@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0"
+          name="viewport">
+    <meta content="Abdulmalik Adebayo" name="author">
+    <meta content="HTML, CSS" name="keywords">
+    <meta content="Responsive University Website" name="description">
+    <meta content="ie=edge" http-equiv="X-UA-Compatible">
+    <title>Our Courses</title>
+    <link href="style.css" rel="stylesheet">
+    <link href="https://fonts.gstatic.com" rel="preconnect">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;600;700&display=swap"
+          rel="stylesheet">
+    <script crossorigin="anonymous" src="https://kit.fontawesome.com/b7bbe1d43a.js"></script>
+</head>
+<body>
+<section class="sub-header">
+    <nav>
+        <a href="eduford.html"><img alt="logo" src="eduford_img/logo.png"></a>
+        <div class="nav-links" id="navLinks">
+            <i class="fas fa-times" onclick="hideMenu()"></i>
+            <ul>
+                < <li><a href="eduford.html">HOME</a></li>
+                <li><a href="about.html">ABOUT</a></li>
+                <li><a href="course.html">COURSE</a></li>
+                <li><a href="blog.html">BLOG</a></li>
+                <li><a href="contact.html">CONTACT</a></li>
+            </ul>
+        </div>
+        <i class="fas fa-bars" onclick="showMenu()"></i>
+    </nav>
+    <h1>Our Courses</h1>
+</section>
+
+<!--COURSE CONTENT-->
+<section class="course">
+    <h1>Courses We Offer</h1>
+    <p>Lorem ipsum solor sit amet, consectetur adipiscing elit.</p>
+    <div class="row">
+        <div class="course-col">
+            <h3>Intermediate</h3>
+            <p>Lorem ipsum solor sit amet, consectetur adipiscing elit. Pellentesque aliquet turpis nulla, eleifend
+                faucibus est sollicitudin ut. Maecenas ut venenatis ex, et dapibus purus Donec sit.</p>
+        </div>
+        <div class="course-col">
+            <h3>Degree</h3>
+            <p>Lorem ipsum solor sit amet, consectetur adipiscing elit. Pellentesque aliquet turpis nulla, eleifend
+                faucibus est sollicitudin ut. Maecenas ut venenatis ex, et dapibus purus Donec sit.</p>
+        </div>
+        <div class="course-col">
+            <h3>Post Graduation</h3>
+            <p>Lorem ipsum solor sit amet, consectetur adipiscing elit. Pellentesque aliquet turpis nulla, eleifend
+                faucibus est sollicitudin ut. Maecenas ut venenatis ex, et dapibus purus Donec sit.</p>
+        </div>
+    </div>
+</section>
+
+<!--FACILITIES CONTENT-->
+<section class="facilities">
+    <h1>Our Facilities</h1>
+    <p>Lorem ipsum solor sit amet, consectetur adipiscing elit.</p>
+
+    <div class="row">
+        <div class="facilities-col">
+            <img alt="Library" src="eduford_img/library.png">
+            <h3>World Class Library</h3>
+            <p>Lorem ipsum solor sit amet, consectetur adipiscing elit. Pellentesque aliquet turpis nulla</p>
+        </div>
+        <div class="facilities-col">
+            <img alt="Basketball Pitch" src="eduford_img/basketball.png">
+            <h3>Largest Play Ground</h3>
+            <p>Lorem ipsum solor sit amet, consectetur adipiscing elit. Pellentesque aliquet turpis nulla</p>
+        </div>
+        <div class="facilities-col">
+            <img alt="Cafeteria" src="eduford_img/cafeteria.png">
+            <h3>Tasty and Healthy Food</h3>
+            <p>Lorem ipsum solor sit amet, consectetur adipiscing elit. Pellentesque aliquet turpis nulla</p>
+        </div>
+    </div>
+</section>
+
+<!--FOOTER SECTION-->
+<section class="footer">
+    <h4>About Us</h4>
+    <p>Lorem ipsum solor sit amet, consectetur adipiscing elit. Pellentesque aliquet turpis nulla, eleifend
+        faucibus est <br> sollicitudin ut. Maecenas ut venenatis ex, et dapibus purus Donec sit.</p>
+    <div class="icons">
+        <i class="fab fa-facebook"></i>
+        <i class="fab fa-twitter"></i>
+        <i class="fab fa-facebook-messenger"></i>
+        <i class="fab fa-linkedin"></i>
+        <i class="fab fa-instagram"></i>
+    </div>
+</section>
+
+<!--JavaScript for Toggle Menu-->
+<script>
+    let navLinks = document.getElementById("navLinks");
+
+    function showMenu() {
+        navLinks.style.right = "0";
+    }
+
+    function hideMenu() {
+        navLinks.style.right = "-200px"
+    }
+</script>
+</body>
+</html>
