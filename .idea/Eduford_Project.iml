@@ -11,6 +11,9 @@
     <orderEntry type="module" module-name="HTML Tutorial" />
     <orderEntry type="library" name="@fortawesome/fontawesome-free" level="application" />
     <orderEntry type="library" name="b7bbe1d43a" level="application" />
+<<<<<<< HEAD
     <orderEntry type="library" name="b7bbe1d43a" level="application" />
+=======
+>>>>>>> origin/master
   </component>
 </module>
